@@ -33,7 +33,7 @@ for ligne in f:
 f.close()
 
 
-def nom():
+def prenom():
     m=""
     lettre2=random.choice(list(entrees))
     while lettre2!='\x07':
@@ -50,4 +50,4 @@ if __name__=="__main__":
         n=5
     
     for i in range(n):
-        print(nom())
+        print(prenom())
