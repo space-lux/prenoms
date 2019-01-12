@@ -18,7 +18,7 @@ for ligne in f:
     langs=[lang.strip() for lang in langs]
     nom=ligne[0].strip()
     [langues.add(l) for l in langs]
-    if "french" in langs:# langues possibles dans le fichier de l'INSEE : voir la liste langues
+    if "french" in langs:# langues possibles dans le fichier : voir la liste langues
         # On pourrait aussi rajouter le filtre de genre (ligne[1]=="f" ou "m")
         prenoms.add(nom)
         entrees.append(nom[0:0+depth])
